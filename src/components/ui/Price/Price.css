@@ -1,0 +1,19 @@
+.price {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: flex-end;
+      flex-direction: column;
+}
+
+.price__compare {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+
+.price__current {
+  color: #202020;
+  font-size: 17px;
+  font-weight: 700;
+}

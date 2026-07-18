@@ -1,0 +1,105 @@
+.bundle-builder {
+  min-height: 100vh;
+  padding: 50px 122px;
+  background-color: #ffffff;
+}
+
+.bundle-builder__container {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 390px;
+  align-items: start;
+  gap: 28px;
+
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.bundle-builder__content,
+.bundle-builder__sidebar {
+  min-width: 0;
+}
+
+.bundle-builder__review {
+  position: sticky;
+  top: 24px;
+}
+
+.bundle-builder__steps {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Review moves below the builder */
+@media (max-width: 1200px) {
+  .bundle-builder__container {
+    grid-template-columns: 1fr;
+  }
+
+  .bundle-builder__review {
+    position: static;
+  }
+}
+.bundle-builder__next {
+  margin-top: 24px;
+}
+
+@media (max-width: 600px) {
+  .bundle-builder {
+    padding: 20px 16px;
+  }
+
+  .bundle-builder__container {
+    gap: 24px;
+  }
+}
+
+.bundle-builder__next button {
+    width: fit-content;
+    display: block;
+    font-size: 18px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: white;
+    margin: 0 auto;
+    padding: 8px 24px;
+    width: auto;
+    white-space: nowrap;
+}
+.bundle-builder__next button:hover {
+    transition: all 0.3s ease-in-out;
+    color: white;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    margin: 0 auto;
+    padding: 8px 24px;
+}
+
+@media (max-width: 992px) {
+    .bundle-builder {
+        padding: 20px 16px;
+    }
+}
+
+@media (max-width: 768px) {
+      .bundle-builder {
+        padding: 10px 8px;
+    }
+     .review-summary {
+        width: 100%;
+        padding: 12px 0 12px;
+    }
+    .review-panel__content-section {
+        width: 100%;
+        padding: 12px 0 12px;
+    }
+    .review-panel__content {
+        flex-direction: column;
+    }
+}
+@media (max-width: 440px) {
+    .review-item__name {
+        font-size: 12px;
+    }
+}

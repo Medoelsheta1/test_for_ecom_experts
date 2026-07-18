@@ -1,0 +1,135 @@
+.accordion-step {
+  overflow: hidden;
+  border: 1px solid #d9dce1;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.accordion-step__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+
+  width: 100%;
+  min-height: 112px;
+  padding: 24px;
+
+  border: 0;
+  background-color: #ffffff;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordion-step__heading {
+  min-width: 0;
+}
+
+.accordion-step__number {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--grey-color);
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  letter-spacing: 0.8px;
+}
+
+.accordion-step__title-row {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+  gap: 12px;
+}
+
+.accordion-step__icon {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.accordion-step__title {
+  margin: 0;
+  color: #20242a;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.accordion-step__state {
+  display: flex;
+  flex-shrink: 0;
+  padding-top: 50px;
+  align-items: center;
+  gap: 16px;
+}
+
+.accordion-step__selected-count {
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.accordion-step__chevron {
+  display: block;
+  color: #20242a;
+  font-size: 22px;
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.accordion-step__chevron--open {
+  transform: rotate(180deg);
+}
+
+.accordion-step__content {
+  padding: 0 24px 24px;
+  border-top: 1px solid #eef0f3;
+}
+
+@media (max-width: 600px) {
+  .accordion-step__header {
+    min-height: 96px;
+    padding: 18px 16px;
+  }
+
+  .accordion-step__title {
+    font-size: 19px;
+  }
+
+  .accordion-step__icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .accordion-step__selected-count {
+    display: none;
+  }
+
+  .accordion-step__content {
+    padding: 0 16px 20px;
+  }
+}
+
+
+.accordion-step {
+  background-color: #ffffff;
+  position: relative;
+}
+
+.accordion-step__header,
+.accordion-step__content {
+  background-color: inherit;
+}
+
+.accordion-step--open {
+  background-color: var(--secondary-color);
+}
+.line {
+    height: 1px;
+    left: 0;
+    position: absolute;
+    background-color: #d9dce1;
+    width: 100%;
+}
