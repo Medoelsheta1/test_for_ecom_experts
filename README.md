@@ -6,7 +6,9 @@ This project is my solution for the frontend take-home test.
 
 I built a responsive React bundle builder with product variants, quantity controls, a live review panel, price calculations, accordion steps, and localStorage persistence.
 
-## Run locally
+## this live link to test https://medoelsheta1.github.io/test_for_ecom_experts/
+
+## Or to Run locally
 
 ### 1. Clone the repository with these steps
 
