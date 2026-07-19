@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test_for_ecom_experts/static/css/main.c38a44c8.css",
+    "main.js": "/test_for_ecom_experts/static/js/main.f82e6215.js",
+    "static/media/satisfaction-guarantee.png": "/test_for_ecom_experts/static/media/satisfaction-guarantee.3fbe99c610cff19d8ca5.png",
+    "static/media/wyze-cam-floodlight-v2.png": "/test_for_ecom_experts/static/media/wyze-cam-floodlight-v2.dfb7ba9b1ba9e7206057.png",
+    "static/media/wyze-duo-cam-doorbell.png": "/test_for_ecom_experts/static/media/wyze-duo-cam-doorbell.83edd406c135266734a7.png",
+    "static/media/wyze-cam-v4.png": "/test_for_ecom_experts/static/media/wyze-cam-v4.24abfced167a6476c3a8.png",
+    "static/media/camera.svg": "/test_for_ecom_experts/static/media/camera.cf814fe4717ab77a0252a25b171895ed.svg",
+    "static/media/keypad.svg": "/test_for_ecom_experts/static/media/keypad.0af6f75683b591fc0fc8e358136f6d2c.svg",
+    "static/media/sensor.svg": "/test_for_ecom_experts/static/media/sensor.dd0b71119a722001fadd1d8c92e1473a.svg",
+    "static/media/extra-protection.svg": "/test_for_ecom_experts/static/media/extra-protection.3f81d45f875991fd0a6cf9f7b72e8e94.svg",
+    "static/media/plan.svg": "/test_for_ecom_experts/static/media/plan.d7ee221f2fa441dc5e98ae62c8d89275.svg",
+    "index.html": "/test_for_ecom_experts/index.html",
+    "main.c38a44c8.css.map": "/test_for_ecom_experts/static/css/main.c38a44c8.css.map",
+    "main.f82e6215.js.map": "/test_for_ecom_experts/static/js/main.f82e6215.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c38a44c8.css",
+    "static/js/main.f82e6215.js"
+  ]
+}
